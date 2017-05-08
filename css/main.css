@@ -1,12 +1,9 @@
-html, body {
-  height: 100vh; }
-
 body {
   background-color: #fff; }
 
 #wrapper {
   background-color: #B8CEE0;
-  height: 100vh; }
+  min-height: 100vh; }
 
 .nav {
   display: inline; }
@@ -17,7 +14,7 @@ body {
     color: #49306B;
     text-align: center;
     font-family: "Unica One", cursive;
-    font-size: 60px; }
+    font-size: 5vw; }
 
 .postdiv {
   background-color: #fff;
@@ -25,7 +22,8 @@ body {
   padding-left: 15px;
   border-style: solid;
   border-color: #49306B;
-  border-width: 1px; }
+  border-width: 1px;
+  margin-bottom: 100px; }
   .postdiv .posthead {
     font-family: "Open Sans", sans-serif;
     color: #49306B; }
@@ -41,5 +39,18 @@ body {
 .news {
   border-top-style: dotted;
   padding: 1%; }
+
+.imageholder {
+  text-align: center;
+  margin-bottom: 2%; }
+
+.icondiv {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.overflow {
+  max-height: 600px;
+  overflow-y: scroll; }
 
 /*# sourceMappingURL=main.css.map */

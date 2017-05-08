@@ -13,7 +13,6 @@ $bigtext: 'Unica One', cursive;;
 $smalltext: 'Open Sans', sans-serif;
 
 html, body {
-  height: 100vh;
 }
 
 body {
@@ -22,7 +21,7 @@ body {
 
 #wrapper {
   background-color: $wrappercolor;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .nav {
@@ -37,7 +36,7 @@ body {
     color: $textcolor;
     text-align: center;
     font-family: $bigtext;
-    font-size: 60px;
+    font-size: 5vw;
   }
 }
 
@@ -48,6 +47,7 @@ body {
   border-style: solid;
   border-color: $textcolor;
   border-width: 1px;
+  margin-bottom: 100px;
 
   .posthead {
     font-family: $smalltext;
@@ -70,4 +70,20 @@ body {
 .news {
   border-top-style: dotted;
   padding: 1%;
+}
+
+.imageholder{
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.icondiv {
+  display:inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.overflow {
+  max-height: 600px;
+  overflow-y:scroll;
 }
