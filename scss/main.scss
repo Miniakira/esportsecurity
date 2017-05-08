@@ -47,7 +47,7 @@ body {
   border-style: solid;
   border-color: $textcolor;
   border-width: 1px;
-  margin-bottom: 100px;
+  margin-bottom: 75px;
 
   .posthead {
     font-family: $smalltext;
@@ -84,6 +84,6 @@ body {
 }
 
 .overflow {
-  max-height: 600px;
+  max-height: 650px;
   overflow-y:scroll;
 }
