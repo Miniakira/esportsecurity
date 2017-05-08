@@ -8,6 +8,9 @@ body {
   background-color: #B8CEE0;
   height: 100vh; }
 
+.nav {
+  display: inline; }
+
 #header {
   background-color: #B8CEE0; }
   #header h1 {
@@ -20,13 +23,23 @@ body {
   background-color: #fff;
   border-radius: 5px;
   padding-left: 15px;
-  border-style: dashed;
+  border-style: solid;
   border-color: #49306B;
   border-width: 1px; }
+  .postdiv .posthead {
+    font-family: "Open Sans", sans-serif;
+    color: #49306B; }
   .postdiv .post {
     font-family: "Open Sans", sans-serif;
     color: #49306B;
     letter-spacing: 1px;
     line-height: 160%; }
+  .postdiv .apply {
+    margin-right: 2%;
+    margin-bottom: 2%; }
+
+.news {
+  border-top-style: dotted;
+  padding: 1%; }
 
 /*# sourceMappingURL=main.css.map */
