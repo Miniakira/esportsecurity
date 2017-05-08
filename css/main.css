@@ -36,6 +36,10 @@ body {
     margin-right: 2%;
     margin-bottom: 2%; }
 
+.socialhead {
+  font-family: "Open Sans", sans-serif;
+  color: #49306B; }
+
 .news {
   border-top-style: dotted;
   padding: 1%; }
