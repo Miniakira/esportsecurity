@@ -1,0 +1,32 @@
+html, body {
+  height: 100vh; }
+
+body {
+  background-color: #fff; }
+
+#wrapper {
+  background-color: #B8CEE0;
+  height: 100vh; }
+
+#header {
+  background-color: #B8CEE0; }
+  #header h1 {
+    color: #49306B;
+    text-align: center;
+    font-family: "Unica One", cursive;
+    font-size: 60px; }
+
+.postdiv {
+  background-color: #fff;
+  border-radius: 5px;
+  padding-left: 15px;
+  border-style: dashed;
+  border-color: #49306B;
+  border-width: 1px; }
+  .postdiv .post {
+    font-family: "Open Sans", sans-serif;
+    color: #49306B;
+    letter-spacing: 1px;
+    line-height: 160%; }
+
+/*# sourceMappingURL=main.css.map */

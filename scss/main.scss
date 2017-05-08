@@ -1,0 +1,53 @@
+
+// Color Variables
+
+$bodycolor: #fff;
+$wrappercolor: #B8CEE0;
+$headercolor: #B8CEE0;
+$textcolor: #49306B;
+$divcolor: #fff;
+
+// Font variables
+
+$bigtext: 'Unica One', cursive;;
+$smalltext: 'Open Sans', sans-serif;
+
+html, body {
+  height: 100vh;
+}
+
+body {
+  background-color: $bodycolor;
+}
+
+#wrapper {
+  background-color: $wrappercolor;
+  height: 100vh;
+}
+
+
+#header {
+    background-color: $headercolor;
+
+  h1{
+    color: $textcolor;
+    text-align: center;
+    font-family: $bigtext;
+    font-size: 60px;
+  }
+}
+
+.postdiv {
+  background-color: $divcolor;
+  border-radius: 5px;
+  padding-left: 15px;
+  border-style: dashed;
+  border-color: $textcolor;
+  border-width: 1px;
+  .post {
+    font-family: $smalltext;
+    color: $textcolor;
+    letter-spacing: 1px;
+    line-height: 160%;
+  }
+}
