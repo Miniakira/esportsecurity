@@ -31,6 +31,8 @@ body {
     color: #49306B;
     letter-spacing: 1px;
     line-height: 160%; }
+    .postdiv .list li {
+      margin-top: 10px; }
   .postdiv .posthead {
     font-family: "Open Sans", sans-serif;
     color: #49306B; }

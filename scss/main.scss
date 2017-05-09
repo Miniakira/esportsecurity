@@ -56,6 +56,10 @@ body {
     color: $textcolor;
     letter-spacing: 1px;
     line-height: 160%;
+
+    li {
+      margin-top: 10px;
+    }
   }
 
   .posthead {
