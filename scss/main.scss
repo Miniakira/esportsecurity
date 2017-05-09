@@ -87,7 +87,12 @@ body {
 
 .news {
   border-top-style: dotted;
+  border-width: 1px;
   padding: 1%;
+}
+
+.linkpost {
+  text-align: center;
 }
 
 .imageholder{
@@ -101,7 +106,9 @@ body {
   padding-right: 5px;
 }
 
-.overflow {
-  max-height: 650px;
-  overflow-y:scroll;
+@media screen and (min-width: 480px) {
+  .overflow {
+    max-height: 650px;
+    overflow-y:scroll;
+  }
 }
