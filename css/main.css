@@ -9,12 +9,14 @@ body {
   display: inline; }
 
 #header {
-  background-color: #B8CEE0; }
+  background-color: #B8CEE0;
+  margin-top: -2%; }
   #header h1 {
     color: #49306B;
     text-align: center;
     font-family: "Unica One", cursive;
-    font-size: 5vw; }
+    font-size: 5vw;
+    margin-top: -0.5%; }
 
 .postdiv {
   background-color: #fff;
@@ -24,6 +26,11 @@ body {
   border-color: #49306B;
   border-width: 1px;
   margin-bottom: 50px; }
+  .postdiv .list {
+    font-family: "Open Sans", sans-serif;
+    color: #49306B;
+    letter-spacing: 1px;
+    line-height: 160%; }
   .postdiv .posthead {
     font-family: "Open Sans", sans-serif;
     color: #49306B; }

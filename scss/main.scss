@@ -31,12 +31,14 @@ body {
 
 #header {
     background-color: $headercolor;
+    margin-top: -2%;
 
   h1{
     color: $textcolor;
     text-align: center;
     font-family: $bigtext;
     font-size: 5vw;
+    margin-top: -0.5%;
   }
 }
 
@@ -48,6 +50,13 @@ body {
   border-color: $textcolor;
   border-width: 1px;
   margin-bottom: 50px;
+
+  .list {
+    font-family: $smalltext;
+    color: $textcolor;
+    letter-spacing: 1px;
+    line-height: 160%;
+  }
 
   .posthead {
     font-family: $smalltext;
