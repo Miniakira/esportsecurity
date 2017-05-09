@@ -9,15 +9,12 @@ body {
   display: inline; }
 
 #header {
-  background-color: #B8CEE0;
-  margin-top: -2%; }
+  background-color: #B8CEE0; }
   #header h1 {
     color: #49306B;
     text-align: center;
     font-family: "Unica One", cursive;
-    font-size: 5vw;
-    margin-top: -0.3%;
-    margin-bottom: -0.5%; }
+    font-size: 5vw; }
 
 .postdiv {
   background-color: #fff;
@@ -26,14 +23,7 @@ body {
   border-style: solid;
   border-color: #49306B;
   border-width: 1px;
-  margin-bottom: 50px; }
-  .postdiv .list {
-    font-family: "Open Sans", sans-serif;
-    color: #49306B;
-    letter-spacing: 1px;
-    line-height: 160%; }
-    .postdiv .list li {
-      margin-top: 10px; }
+  margin-bottom: 100px; }
   .postdiv .posthead {
     font-family: "Open Sans", sans-serif;
     color: #49306B; }
@@ -46,25 +36,15 @@ body {
     margin-right: 2%;
     margin-bottom: 2%; }
 
-.socialhead {
-  font-family: "Open Sans", sans-serif;
-  color: #49306B; }
-
 .news {
   border-top-style: dotted;
   padding: 1%; }
 
 .imageholder {
-  text-align: center;
-  margin-bottom: 2%; }
+  text-align: center; }
+
 
 .icondiv {
-  display: inline-block;
-  padding-left: 5px;
-  padding-right: 5px; }
-
-.overflow {
-  max-height: 650px;
-  overflow-y: scroll; }
+  display: inline-block; }
 
 /*# sourceMappingURL=main.css.map */
